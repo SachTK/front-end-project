@@ -11,7 +11,7 @@ const About = () => {
 
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <img src={image2}  style={{ width: "100%" }} />
+              <img src={image2}  alt='logo' style={{ width: "100%" }} />
             </div>
             <div className='flex flex-col'>
               <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Web and Mobile App Development</h1>
@@ -56,7 +56,7 @@ const About = () => {
             </div>
 
             <div className='flex flex-col order-1 sm:order-2'>
-              <img src={image1}  style={{ width: "100%" }} />
+              <img src={image1}  alt='logo' style={{ width: "100%" }} />
             </div>
 
           </div>

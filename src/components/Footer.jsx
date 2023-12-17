@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className="bg-[#6B3CC9]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 bg-[#6B3CC9] pt-10 pr-10 pl-10 pb-8">
-        <div className="md:col-span-2 sm:col-span-2 col-span-1 mt-7">
+        <div className="md:col-span-2  col-span-2 mt-7">
           <div>
-            <img src={logo} alt="Company Logo" style={{ width: "220px" }} />
+            <img src={logo} alt="CompanyLogo" style={{ width: "220px" }} />
           </div>
           <div className="mt-5">
             <p className="max-w-[500px]">
