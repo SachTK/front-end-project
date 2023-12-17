@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#6B3CC9] z-50">
       <div>
-        <image src={logo} alt="logo image" style={{ width: "150px" }} />
+        <img src={logo}  style={{ width: "150px" }} />
       </div>
 
       <ul className="hidden md:flex">
