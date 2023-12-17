@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import image2 from "../assets/image 2.png";
+import image1 from "../assets/image 1.png"
 import { Link } from "react-scroll";
 
 const About = () => {
@@ -38,10 +39,10 @@ const About = () => {
 
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 
-            <div className='sm:text-right '>
-            <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Web and Mobile App Development</h1>
+            <div className='sm:text-right order-2 sm:order-1'>
+            <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Digital Strategy Consulting</h1>
               <div>
-                <p className='text-center sm:text-left text-black'>Your web and mobile Apps are pieces of the puzzle to grow your business. We use frameworks which tailor content and engagement methods to respond to different intents shown by your potential customers who interact with your business online.</p>
+                <p className='text-center sm:text-left text-black'>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
               </div>
               <div className='flex justify-center sm:justify-start'>
                 <button className="rounded-lg font-semibold text-l mt-7 text-white group border-2 px-6 py-3 my-2 bg-[#F28D35]">
@@ -54,8 +55,8 @@ const About = () => {
              
             </div>
 
-            <div className='flex flex-col'>
-            <img src={image2} alt="logo image" style={{ width: "100%" }} />
+            <div className='flex flex-col order-1 sm:order-2'>
+            <img src={image1} alt="logo image" style={{ width: "100%" }} />
             </div>
 
           </div>

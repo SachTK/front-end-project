@@ -1,5 +1,5 @@
 
-## My Portfolio 🤖👦💻👉  <a href= "http://gihaa.github.io" >live site </a>
+## Front-End Dev Project   <a href= "http://gihaa.github.io" >live site </a>
 <br>
 This website is programmed using Reactjs and tailwind CSS
 
