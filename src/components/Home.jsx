@@ -9,7 +9,7 @@ const Home = () => {
       name="home"
       className="snap-start bg-no-repeat bg-center w-full h-screen"
     >
-      <div className="max-w-[700px] px-8 flex flex-col justify-end pb-[100px] pl-[65px] pr=[65px] h-full">
+      <div className="max-w-[700px] sm:px-8 flex flex-col justify-end sm:pb-[100px]  h-full">
         <div class="bg-gradient-to-r from-green-400 to-blue-500 p-10 ">
         <h1 className="text-2xl sm:text-5xl font-bold text-white">
           We crush your competitors, goals, and sales records - without the B.S.
