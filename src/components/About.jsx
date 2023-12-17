@@ -11,7 +11,7 @@ const About = () => {
 
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
             <div className='sm:text-right text-4xl font-bold'>
-              <img src={image2} alt="logo image" style={{ width: "100%" }} />
+              <image src={image2} alt="logo image" style={{ width: "100%" }} />
             </div>
             <div className='flex flex-col'>
               <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Web and Mobile App Development</h1>
@@ -40,7 +40,7 @@ const About = () => {
           <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
 
             <div className='sm:text-right order-2 sm:order-1'>
-            <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Digital Strategy Consulting</h1>
+              <h1 className='text-[27px] sm:text-left text-center font-bold text-[#6B3CC9] '>Digital Strategy Consulting</h1>
               <div>
                 <p className='text-center sm:text-left text-black'>Your digital strategy should complement the overall marketing strategy of the company. In online marketing, each component will never work in isolation and every business needs a different mix. We provide a clear concept and strategic overview to find the most efficient model for your business.</p>
               </div>
@@ -52,11 +52,11 @@ const About = () => {
                   <span className="group-hover:rotate-90 duration-300"></span>
                 </button>
               </div>
-             
+
             </div>
 
             <div className='flex flex-col order-1 sm:order-2'>
-            <img src={image1} alt="logo image" style={{ width: "100%" }} />
+              <image src={image1} alt="logo image" style={{ width: "100%" }} />
             </div>
 
           </div>
