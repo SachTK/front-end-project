@@ -4,8 +4,8 @@ import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <div className="bg-[#6B3CC9]">
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 bg-[#6B3CC9] pt-10 pr-10 pl-10 pb-8">
-        <div className="md:col-span-2  col-span-2 mt-7">
+      <div className="grid  lg:grid-cols-4 xl:grid-cols-4  sm:grid-cols-2 md:grid-cols-2 gap-4 bg-[#6B3CC9] pt-10 pr-10 pl-10 pb-8">
+        <div className="sm:col-span-3  md:col-span-2 lg:col-span-2  xl:col-span-2  col-span-2 mt-7">
           <div>
             <img src={logo} alt="CompanyLogo" style={{ width: "220px" }} />
           </div>
@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="md:col-span-1 col-span-3 mt-7">
+        <div className="md:col-span-1  mt-7">
           <h1 className="text-xl font-bold">Our Technologies</h1>
           <div className="pt-2">ReactJS</div>
           <div className="pt-2">Gatsby</div>
@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
 
       <div className="flex items-center justify-center pt-5 ">
-        <div className="border-t-2 border-white h-6 w-[300px] sm:w-[800px]"></div>
+        <div className="border-t-2 border-white h-6 w-[300px] sm:w-[300px] md:w-[400px] "></div>
       </div>
 
       <div className="flex items-center justify-center pt-3 pb-5">
