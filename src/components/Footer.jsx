@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="md:col-span-1 col-span-1 mt-7">
+        <div className="md:col-span-1 col-span-3 mt-7">
           <h1 className="text-xl font-bold">Our Technologies</h1>
           <div className="pt-2">ReactJS</div>
           <div className="pt-2">Gatsby</div>
@@ -28,7 +28,7 @@ const Footer = () => {
           <div className="pt-2">Laravel</div>
         </div>
 
-        <div className="md:col-span-1 col-span-1 mt-7">
+        <div className="md:col-span-1 col-span-3 mt-7">
           <h1 className="text-xl font-bold">Our Services</h1>
           <div className="pt-2">Social Media Marketing</div>
           <div className="pt-2">Web & Mobile App Devolopment</div>
